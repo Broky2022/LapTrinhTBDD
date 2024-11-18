@@ -7,26 +7,26 @@ void main() {
   double? a, b, c;
 
   do {
-    stdout.write("Nhập a (a != 0): ");
+    stdout.write('Nhập a (a != 0): ');
     a = double.parse(stdin.readLineSync()!);
     if (a == null || a == 0) {
-      print("<!> Giá trị nhập không hợp lệ hoặc a bằng 0. Vui lòng nhập lại.");
+      print('<!> Giá trị nhập không hợp lệ hoặc a bằng 0. Vui lòng nhập lại.');
     }
   } while (a == null || a == 0);
 
   do {
-    stdout.write("Nhập b: ");
+    stdout.write('Nhập b: ');
     b = double.parse(stdin.readLineSync()!);
     if (b == null) {
-      print("<!> Giá trị nhập không hợp lệ. Vui lòng nhập lại.");
+      print('<!> Giá trị nhập không hợp lệ. Vui lòng nhập lại.');
     }
   } while (b == null);
 
   do {
-    stdout.write("Nhập c: ");
+    stdout.write('Nhập c: ');
     c = double.parse(stdin.readLineSync()!);
     if (c == null) {
-      print("<!> Giá trị nhập không hợp lệ. Vui lòng nhập lại.");
+      print('<!> Giá trị nhập không hợp lệ. Vui lòng nhập lại.');
     }
   } while (c == null);
 
@@ -44,17 +44,17 @@ double? parseDouble(String? input) {
 void solveQuadraticEquation(double a, double b, double c) {
   double delta = b * b - 4 * a * c;
 
-  print("\nPhương trình: ${a}x² + ${b}x + ${c} = 0");
+  print('\nPhương trình: ${a}x² + ${b}x + ${c} = 0');
   if (delta < 0) {
-    print("=> Phương trình vô nghiệm.");
+    print('=> Phương trình vô nghiệm.');
   } else if (delta == 0) {
     double x = -b / (2 * a);
-    print("=> Phương trình có nghiệm kép: x = $x");
+    print('=> Phương trình có nghiệm kép: x = $x');
   } else {
     double x1 = (-b + sqrt(delta)) / (2 * a);
     double x2 = (-b - sqrt(delta)) / (2 * a);
-    print("=> Phương trình có hai nghiệm phân biệt:");
-    print("x1 = $x1");
-    print("x2 = $x2");
+    print('=> Phương trình có hai nghiệm phân biệt:');
+    print('x1 = $x1');
+    print('x2 = $x2');
   }
 }
