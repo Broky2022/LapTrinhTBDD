@@ -52,7 +52,6 @@ class DocGia {
 
   // Phương thức hiển thị thông tin độc giả
   void hienThiThongTin() {
-    print('\n------------------------');
     print('Mã độc giả: $_maDocGia');
     print('Họ tên: $_tenDocGia');
     print('Danh sách sách đang mượn:');
