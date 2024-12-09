@@ -3,8 +3,13 @@
 Buổi 1: ngày 16/11/2024
 
 Buổi 2: ngày 18/11/2024 
- -   'CTE'
+ - CTE
 
 Buổi 3-4: Dart in Flutter
+
+Buổi 5: API
+ - Postman
+ - Design Pattems
+ - Clean Code
 
 Báo cáo cuối môn vào 4/1/2025 lúc 12h30
