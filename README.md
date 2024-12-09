@@ -12,4 +12,6 @@ Buổi 5: API
  - Design Pattems
  - Clean Code
 
+Buổi cuối ktra cuối kì, ko có bù
+
 Báo cáo cuối môn vào 4/1/2025 lúc 12h30
